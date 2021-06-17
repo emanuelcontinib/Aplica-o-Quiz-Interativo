@@ -3,20 +3,109 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Exercício 20</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  <title>Drum Quiz</title>
 </head>
 <body>
-  <div class="container">
-    <h1 class="counter-container display-1 text-center">0</h1>
+  <div class="intro py-3 bg-dark text-md-left">
+    <div class="container">
+      <h2 class="text-light display-2 my-4">Quiz</h2>
+    </div>
+  </div>
 
-    <div class="row justify-content-center">
-      <button class="button-init-counter btn btn-info col-">
-        Iniciar contador
-      </button>
+  <div class="quiz py-4 bg-dark">
+    <div class="container">
+      <h2 class="my-5 text-light">Teste seus conhecimentos sobre bateria e suas tecnologias</h2>
 
-      <button class="button-stop-counter btn btn-warning col-">
-        Parar contador
-      </button>
+      <form class="quiz-form text-light">
+        <div class="my-5">
+          <p class="lead font-weight-normal">1. "Suffle Groove" seria algo como:</p>
+
+          <div class="form-check my-2 text-white-50">
+            <label class="form-check-label">
+              <input type="radio" name="inputQuestion1" value="A" checked>
+              Groove com poliritmias e tempos descombinantes
+            </label>
+          </div>
+          <div class="form-check my-2 text-white-50">
+            <label class="form-check-label">
+              <input type="radio" name="inputQuestion1" value="B">
+              Groove com notas em todos os tempos
+            </label>
+          </div>
+        </div>
+
+        <div class="my-5">
+          <p class="lead font-weight-normal">2. "Maple" é:</p>
+
+          <div class="form-check my-2 text-white-50">
+            <label class="form-check-label">
+              <input type="radio" name="inputQuestion2" value="A" checked>
+              Uma madeira utilizada na fabricação dos revestimentos dos cascos da bateria
+            </label>
+          </div>
+          <div class="form-check my-2 text-white-50">
+            <label class="form-check-label">
+              <input type="radio" name="inputQuestion2" value="B">
+              Uma madeira utilizada na produção de baquetas
+            </label>
+          </div>
+        </div>
+
+        <div class="my-5">
+          <p class="lead font-weight-normal">3. "Triplets" é um padrão de toques muito utilizado por:</p>
+
+          <div class="form-check my-2 text-white-50">
+            <label class="form-check-label">
+              <input type="radio" name="inputQuestion3" value="A" checked>
+              John Bonham
+            </label>
+          </div>
+          <div class="form-check my-2 text-white-50">
+            <label class="form-check-label">
+              <input type="radio" name="inputQuestion3" value="B">
+              Nicko MacBrain
+            </label>
+          </div>
+        </div>
+
+        <div class="my-5">
+          <p class="lead font-weight-normal">4. O ruído ao fundo da música "Since i've been loving you", vem do:</p>
+
+          <div class="form-check my-2 text-white-50">
+            <label class="form-check-label">
+              <input type="radio" name="inputQuestion4" value="A" checked>
+              Pedal do Bonzo
+            </label>
+          </div>
+          <div class="form-check my-2 text-white-50">
+            <label class="form-check-label">
+              <input type="radio" name="inputQuestion4" value="B">
+              Chimbal do Bonzo
+            </label>
+          </div>
+        </div>
+
+        <div class="my-5">
+          <p class="lead font-weight-bold">5. Quem é melhor?</p>
+          <div class="form-check my-2 text-white-50">
+            <label class="form-check-label">
+              <input type="radio" name="inputQuestion5" value="A" checked>
+              Metallica
+            </label>
+          </div>
+          <div class="form-check my-2 text-white-50">
+            <label class="form-check-label">
+              <input type="radio" name="inputQuestion5" value="B">
+              Megadeth
+            </label>
+          </div>
+        </div>
+        
+        <div class="text-md-left">
+          <button type="button" class="btn btn-outline-light" btn-lg>Criar discórdia </button>
+        </div>
+      </form>
     </div>
   </div>
 
